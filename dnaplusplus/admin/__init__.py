@@ -1,5 +1,5 @@
 '''
-DNA++ (c) DNA++ 2018
+DNA++ (c) DNA++ 2017
 
 All rights reserved.
 
