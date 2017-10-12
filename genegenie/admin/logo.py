@@ -28,12 +28,11 @@ def draw_logo(filename='logo.png'):
     plt.plot(np.linspace(-1, 5, 100), [0] * 100, linewidth=4, color='#010101')
 
     # Write text:
-    x_offset = -0.08
     y_offset = -0.33
     fontsize = 12
 
-    for idx, c in enumerate('DNA++'):
-        plt.text(idx + x_offset, y_offset, c, color='#010101',
+    for idx, c in enumerate('GENEGENIE'):
+        plt.text((idx - 0.8) * 0.6, y_offset, c, color='#010101',
                  fontsize=fontsize)
 
     # Clean:
